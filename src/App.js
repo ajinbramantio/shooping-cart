@@ -152,7 +152,7 @@ class App extends React.Component {
               </button>
             </div>
             {this.state.items.map((item, index) => {
-              console.log(item)
+              // console.log(item)
               const Price = new Intl.NumberFormat('IND', {
                 maximumSignificantDigits: 3,
                 style: 'currency',
